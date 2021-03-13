@@ -337,7 +337,7 @@ h2 {
   padding-bottom: 94px;
 }
 
-.works-title {
+.works__title {
   margin-bottom: 50px;
 
   font-weight: bold;
@@ -407,7 +407,7 @@ h2 {
   padding-top: 95px;
 }
 
-.team-title {
+.our-team__title {
   margin-bottom: 50px;
 
   font-weight: bold;
@@ -512,7 +512,7 @@ h2 {
   padding-bottom: 94px;
 }
 
-.clients-title {
+.clients__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -648,7 +648,7 @@ h2 {
   margin-left: 70px;
 }
 
-.join-title {
+.join-container__title {
   display: block;
   align-items: baseline;
   margin-bottom: 20px;
@@ -706,7 +706,7 @@ h2 {
   margin-left: 93px;
 }
 
-.sign-up-text {
+.sign-up-container__text {
   align-items: baseline;
   margin-bottom: 20px;
 
