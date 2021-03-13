@@ -61,24 +61,24 @@ h2 {
   padding-bottom: 0;
 }
 
-.main-nav {
+.container--header {
   border-bottom: 1px solid var(--light-grey);
 }
 
-.main-nav,
-.navigation {
+.container--header,
+.nav {
   display: flex;
   align-items: center;
 }
 
-.webstudio {
+.logo {
   display: block;
   text-decoration: none;
 }
 
 /* Логотип */
-.logo-web,
-.logo-studio {
+.logo__logo-web,
+.logo__logo-studio {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -86,11 +86,11 @@ h2 {
   letter-spacing: 0.03em;
 }
 
-.logo-web {
+.logo__logo-web {
   color: var(--blue);
 }
 
-.logo-studio {
+.logo__logo-studio {
   color: #000000;
 }
 
