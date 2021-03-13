@@ -337,7 +337,7 @@ h2 {
   color: var(--black-text);
 }
 
-.works__thumb {
+.works-list__thumb {
   position: relative;
 }
 
@@ -835,8 +835,10 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--black-text);
   cursor: pointer;
-  -webkit-transition-property: background-color, color;
-  transition-property: background-color, color;
+  -webkit-transition-property: background-color, color, -webkit-box-shadow;
+  transition-property: background-color, color, -webkit-box-shadow;
+  transition-property: background-color, color, box-shadow;
+  transition-property: background-color, color, box-shadow, -webkit-box-shadow;
   -webkit-transition-duration: var(--time);
           transition-duration: var(--time);
   -webkit-transition-timing-function: var(--cubik-normal);
@@ -846,6 +848,8 @@ h2 {
 .btn-list__variant:hover, .btn-list__variant:focus {
   background-color: var(--blue);
   color: var(--white-text);
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btn-list__item {
