@@ -1,18 +1,15 @@
 .footer {
+  display: flex;
   background-color: var(--dark-grey);
 }
 
-.footer {
-  display: flex;
-}
-
-.container--footer {
+.footer__container {
   display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.addr {
+.address__text {
   display: block;
 
   font-style: normal;
@@ -23,17 +20,17 @@
   color: var(--white-text);
 }
 
-.footer-list {
+.address-list {
   display: block;
   padding-left: 0;
 }
 
-.footer-list__item:first-child {
+.address__item:first-child {
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.footer-list__link {
+.address__link {
   display: inline-block;
   margin-bottom: 0;
 
