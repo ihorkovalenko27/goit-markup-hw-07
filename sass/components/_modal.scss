@@ -26,11 +26,11 @@
   transition-property: color;
   transition-duration: var(--time);
   transition-timing-function: var(--cubik-normal);
-}
 
-.modal__btn:hover,
-.modal__btn:focus {
-  color: var(--blue);
+  &:hover,
+  &:focus {
+    color: var(--blue);
+  }
 }
 
 .modal__icon {

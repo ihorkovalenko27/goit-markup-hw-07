@@ -20,10 +20,10 @@
 .client-list__item {
   display: flex;
   margin-right: 30px;
-}
 
-.client-list__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .client-list__link {
@@ -39,12 +39,12 @@
   transition-property: border, color;
   transition-duration: var(--time);
   transition-timing-function: var(--cubik-normal);
-}
 
-.client-list__link:hover,
-.client-list__link:focus {
-  color: var(--blue);
-  border: 1px solid var(--blue);
+  &:hover,
+  &:focus {
+    color: var(--blue);
+    border: 1px solid var(--blue);
+  }
 }
 
 .clients-list__icon {

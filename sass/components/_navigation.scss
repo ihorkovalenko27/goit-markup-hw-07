@@ -8,10 +8,10 @@
 
 .nav__item {
   margin-right: 50px;
-}
 
-.nav__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .nav__link {
@@ -31,29 +31,29 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-text);
-}
 
-.nav__link--active::after {
-  content: '';
+  &:hover,
+  &:focus {
+    color: var(--blue);
+  }
 
-  position: absolute;
+  &--active::after {
+    content: '';
 
-  left: 0;
-  bottom: -1px;
-  border-radius: 2px;
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--blue);
+    position: absolute;
 
-  opacity: 1;
-}
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--blue);
 
-.nav__link:hover,
-.nav__link:focus {
-  color: var(--blue);
-}
+    opacity: 1;
+  }
 
-.nav__link--active {
-  color: var(--blue);
+  &--active {
+    color: var(--blue);
+  }
 }

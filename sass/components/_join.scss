@@ -24,6 +24,10 @@
 .join-list__item {
   display: flex;
   margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .join-list__link {
@@ -38,15 +42,11 @@
   transition-property: background-color;
   transition-duration: var(--time);
   transition-timing-function: var(--cubik-normal);
-}
 
-.join-list__link:hover,
-.join-list__link:focus {
-  background-color: var(--blue);
-}
-
-.join-list__item:last-child {
-  margin-right: 0;
+  &:hover,
+  &:focus {
+    background-color: var(--blue);
+  }
 }
 
 .join-list__icon {

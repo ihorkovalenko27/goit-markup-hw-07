@@ -31,10 +31,10 @@
   box-shadow: var(--card-people);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white);
-}
 
-.team-list__item:last-child {
-  margin-right: 0px;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .team-list__info {
@@ -72,10 +72,10 @@
 .smm__item {
   display: flex;
   margin-right: 10px;
-}
 
-.smm__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .smm__link {
@@ -91,12 +91,12 @@
   transition-property: background-color, color;
   transition-duration: var(--time);
   transition-timing-function: var(--cubik-normal);
-}
 
-.smm__link:hover,
-.smm__link:focus {
-  background-color: var(--blue);
-  color: var(--white);
+  &:hover,
+  &:focus {
+    background-color: var(--blue);
+    color: var(--white);
+  }
 }
 
 .smm__icon {

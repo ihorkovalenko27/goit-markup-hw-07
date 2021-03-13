@@ -36,6 +36,18 @@
   transition-property: border;
   transition-duration: var(--time);
   transition-timing-function: var(--cubik-normal);
+
+  &:focus,
+  &:hover {
+    border: 1px solid var(--blue);
+    outline: none;
+    cursor: pointer;
+  }
+
+  &:focus + .modal-form__icon,
+  &:hover + .modal-form__icon {
+    fill: var(--blue);
+  }
 }
 
 .modal-form__wrapper {
@@ -53,18 +65,6 @@
   transition-property: fill;
   transition-duration: var(--time);
   transition-timing-function: var(--cubik-normal);
-}
-
-.modal-form__input:focus,
-.modal-form__input:hover {
-  border: 1px solid var(--blue);
-  outline: none;
-  cursor: pointer;
-}
-
-.modal-form__input:focus + .modal-form__icon,
-.modal-form__input:hover + .modal-form__icon {
-  fill: var(--blue);
 }
 
 .modal-form__container--area {
@@ -85,13 +85,13 @@
   transition-property: border;
   transition-duration: var(--time);
   transition-timing-function: var(--cubik-normal);
-}
 
-.modal-form__comment:focus,
-.modal-form__comment:hover {
-  border: 1px solid var(--blue);
-  outline: none;
-  cursor: pointer;
+  &:focus,
+  &:hover {
+    border: 1px solid var(--blue);
+    outline: none;
+    cursor: pointer;
+  }
 }
 
 .modal-form__comment::-moz-placeholder {

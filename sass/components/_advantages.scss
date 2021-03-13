@@ -1,4 +1,4 @@
-.contaner--privilege {
+.container--privilege {
   padding-top: 95px;
   padding-bottom: 95px;
 }
@@ -12,10 +12,10 @@
 
 .advantages__item {
   margin-right: 30px;
-}
 
-.advantages__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .advantages__container {
@@ -55,8 +55,8 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--grey-text);
-}
 
-.advantages__text:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }

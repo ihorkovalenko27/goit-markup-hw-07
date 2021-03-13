@@ -19,15 +19,15 @@
   transition-property: box-shadow;
   transition-duration: var(--time);
   transition-timing-function: var(--cubik-normal);
-}
 
-.example-list__card:hover {
-  box-shadow: var(--card-shadow);
-}
+  &:hover {
+    box-shadow: var(--card-shadow);
+  }
 
-.example-list__card:hover .example-list__overlay {
-  transform: translateX(0);
-  opacity: 1;
+  &:hover .example-list__overlay {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .example-list__thumb {

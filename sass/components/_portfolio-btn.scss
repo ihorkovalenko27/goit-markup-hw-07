@@ -24,18 +24,18 @@
   transition-property: background-color, color;
   transition-duration: var(--time);
   transition-timing-function: var(--cubik-normal);
+
+  &:hover,
+  &:focus {
+    background-color: var(--blue);
+    color: var(--white-text);
+  }
 }
 
 .btn-list__item {
   margin-right: 8px;
-}
 
-.btn-list__item:last-child {
-  margin-right: 0;
-}
-
-.btn-list__variant:hover,
-.btn-list__variant:focus {
-  background-color: var(--blue);
-  color: var(--white-text);
+  &:last-child {
+    margin-right: 0;
+  }
 }

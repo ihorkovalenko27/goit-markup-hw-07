@@ -13,7 +13,7 @@
   color: var(--black-text);
 }
 
-.works-thumb {
+.works__thumb {
   position: relative;
 }
 
@@ -28,10 +28,10 @@
 .works-list__item {
   margin-right: 30px;
   padding: 0;
-}
 
-.works-list__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .work-list__label {
