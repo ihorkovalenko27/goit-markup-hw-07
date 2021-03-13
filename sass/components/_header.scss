@@ -8,11 +8,11 @@
   padding-bottom: 0;
 }
 
-.container--header {
+.page-header__container {
   border-bottom: 1px solid var(--light-grey);
 }
 
-.container--header,
+.page-header__container,
 .nav {
   display: flex;
   align-items: center;
